@@ -1,12 +1,9 @@
-package Lab5.Ex1;
-
-import Lab4.Ex5.Book;
+package Lab5.StaticTest;
 
 import javax.swing.*;
 
-public class TestBook {
+public class TestBooks {
     public static void main(String[] args) {
-
 
         String favBook,leastBook,favISBN,leastISBN;
         double favPrice,leastPrice;
@@ -31,6 +28,10 @@ public class TestBook {
         output += "\n\nLeast Favourite Book:\n" + leastFav.toString();
 
         JOptionPane.showMessageDialog(null, output, "Book Object Data", JOptionPane.INFORMATION_MESSAGE);
+
+        System.out.println("Number of books: " + Book.getCount());
     }
+
+    
 }
 
