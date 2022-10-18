@@ -3,7 +3,7 @@ package Lab6.Ex3;
 //TestAnimal.java
 /*A driver (test) class that contains the main() method for 
 testing the functionality of the Animal class*/
-
+import java.util.Arrays;
 import Lab6.Ex2.Animal;
 
 public class TestAnimal {
@@ -17,5 +17,7 @@ public class TestAnimal {
 		System.out.println("\n\n\ntesting the 4-argument constructor....");
 		animal1 = new Animal("Lion",lionContinents,200,40);
 		System.out.println(animal1);
+
+
 	}
 }
